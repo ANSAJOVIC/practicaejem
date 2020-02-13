@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #8cfff6;
+    background-size: cover;
+    z-index: -1;
+}
+body h1{
+color: rgb(255, 255, 255);
+}
+.expand:hover{
+    transform: scale(1.5, 1.5);
+    transition: all 1s;
+    border: 1px solid rgb(111, 0, 255);
+}
+h1{
+    font-size: 50px;
+    padding: 1px 20px;
+    text-transform: capitalize;
+    font-style: italic;
+    margin-top: 15px;
+}
+.header .imagen1{
+    position: relative;
+    width: 120px;
+    height: 90px;
+    border-radius: 30%;
+}
